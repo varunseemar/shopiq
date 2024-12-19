@@ -1,0 +1,98 @@
+.NavbarProduct{
+    width: 100%;
+    height: 14vh;
+}
+.ProductPage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ProductLeftSection{
+    width: 35%;
+}
+.ProductRightSection{
+    width: 55%;
+    padding-left: 20px;
+}
+.ProductImageCarousel{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    width: 40vw;
+    height: 80vh;
+}
+.ProductImage{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+.CarouselButton{
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+}
+.CarouselButtonLeft{
+    left: 10px;
+}
+.CarouselButtonRight{
+    right: 10px;
+}
+.CarouselButton:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.ProductTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ProductPrice{
+    font-size: 1.5rem;
+    color: green;
+}
+.ProductDescription{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+.ProductRating{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #888;
+}
+.ProductStock.ProductCategory.ProductBrand.ProductWarranty.ProductShipping.ProductAvailability{
+    margin-top: 5px;
+    font-size: 1rem;
+}
+.AddToCartButton{
+    height: 6vh;
+    width: 3vw;
+    border: none;
+    cursor: pointer;
+}
+.AddToCartButton:hover{
+    transform: scale(1.1);
+}
+.ProductReviews{
+    margin-top: 30px;
+}
+.ProductReview{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.ProductReview p{
+    margin: 5px 0;
+}
+  
